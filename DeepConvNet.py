@@ -14,6 +14,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torch.utils.data import TensorDataset, DataLoader
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 # Hyperparameter setting
