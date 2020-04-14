@@ -19,9 +19,9 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 # Hyperparameter setting
-batch_size = 256
-learning_rate = 0.01
-epochs = 300
+batch_size = 400
+learning_rate = 0.02
+epochs = 400
 momentum = 0.9
 
 # Loading data
